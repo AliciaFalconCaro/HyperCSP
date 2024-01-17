@@ -39,6 +39,7 @@ y: M×N matrix containing the raw EEG data and the annotations about the target 
 - Rows 33 to 64: continuous EEG data representing the 32 channels from the second subject of the pair (Subject 2 or Subject 4).
 - Row 65: NumId
 - Row 66: Group task at each time instant of the recording.
+
 taskInfo: table structure explaining the target cue information. The table contains 3 columns:
 - NumId: contains the number ID given to each cue.
 - StringId: provides a summary of the target/task given to the subjects.
