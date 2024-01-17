@@ -43,8 +43,8 @@ taskInfo: table structure explaining the target cue information. The table conta
   - NumId: contains the number ID given to each cue.
   - StringId: provides a summary of the target/task given to the subjects.
   - Group: represents the target class:
-        - 0: represents the pre-paradigm time.
-        - 1: represents class one (move left hand for experiments 1 and 2, move hands for experiments 3, 4 and 5).
+    - 0: represents the pre-paradigm time.
+      - 1: represents class one (move left hand for experiments 1 and 2, move hands for experiments 3, 4 and 5).
         - 2: represents class two (move right hand for experiments 1 and 2, perform secondary movement for experiments 3, 4 and 5).
         - 3: represents class three (move freely).
         - 4: represents the post-paradigm time.  
