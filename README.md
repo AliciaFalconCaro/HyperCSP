@@ -1,6 +1,5 @@
 [![DOI:10.5281/zenodo.10523774](https://zenodo.org/badge/DOI/10.5281/zenodo.10523774.svg)](https://doi.org/10.5281/zenodo.10523774) 
 
-DOI TO BE CHANGED
 
 # HyperCSP
 Implementation of a new formulation of Common Spatial Patterns for EEG hyperscanning data (also known as EEG multi-brain data) named hyperCSP. 
