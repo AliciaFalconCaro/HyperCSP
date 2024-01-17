@@ -7,12 +7,10 @@ The EEG hyperscanning dataset is also available.
 
 ***This work is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)***
 
-This is the GitLab repository for the development and early consultation on the WIN data sharing decision tree.
-
 ---
 
 ## Abstract
-This work proposes a new formulation for common spatial patterns (CSP), often used as a powerful feature extraction technique in brain-computer interfacing (BCI) and other neurological studies. In this approach, applied to multiple subjects’ data and named as hyperCSP, the individual covariance and mutual correlation matrices between multiple simultaneously recorded subjects’ electroencephalograms are exploited in the CSP formulation. This method aims at effectively isolating the common motor task between multiple heads and alleviate the effects of other spurious or undesired tasks inherently or intentionally performed by the subjects. This technique can provide a satisfactory classification performance while using small data size and low computational complexity. By using the proposed hyperCSP followed by support vector machines classifier, we obtained a classification accuracy of 81.82% over 8 trials in the presence of strong undesired tasks. We hope that this method could reduce the training error in multi-task BCI scenarios. The recorded valuable motor-related hyperscanning dataset is available for public use to promote the research in this area.
+This work proposes a new formulation for common spatial patterns (CSP), often used as a powerful feature extraction technique in brain-computer interfacing (BCI) and other neurological studies. In this approach, applied to multiple subjects’ data and named as hyperCSP, the individual covariance and mutual correlation matrices between multiple simultaneously recorded subjects’ electroencephalograms are exploited in the CSP formulation. This method aims at effectively isolating the common motor task between multiple heads and alleviate the effects of other spurious or undesired tasks inherently or intentionally performed by the subjects. This technique can provide a satisfactory classification performance while using small data size and low computational complexity. By using the proposed hyperCSP followed by support vector machines classifier, we obtained a classification accuracy of 81.82% over 8 trials in the presence of strong undesired tasks. We hope that this method could reduce the training error in multi-task BCI scenarios. The recorded valuable motor-related hyperscanning dataset is available for public use to promote the research in this area.
 
 
 ## The solution
