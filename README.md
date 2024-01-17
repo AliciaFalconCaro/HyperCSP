@@ -35,19 +35,19 @@ Each of the EEG files contains three variables:
 
 SR: The sampling rate of the system given in samples/second (Hz)
 y: M×N matrix containing the raw EEG data and the annotations about the target cue information. The columns are the N sample points. The array is stored in datatype double. The M rows are divided as follows:
-  - Rows 1 to 32: continuous EEG data representing the 32 channels from the first subject of the pair (Subject 1 or Subject 3).
-  - Rows 33 to 64: continuous EEG data representing the 32 channels from the second subject of the pair (Subject 2 or Subject 4).
-  - Row 65: NumId
-  - Row 66: Group task at each time instant of the recording.
+- Rows 1 to 32: continuous EEG data representing the 32 channels from the first subject of the pair (Subject 1 or Subject 3).
+- Rows 33 to 64: continuous EEG data representing the 32 channels from the second subject of the pair (Subject 2 or Subject 4).
+- Row 65: NumId
+- Row 66: Group task at each time instant of the recording.
 taskInfo: table structure explaining the target cue information. The table contains 3 columns:
 - NumId: contains the number ID given to each cue.
-  - StringId: provides a summary of the target/task given to the subjects.
-  - Group: represents the target class:
+- StringId: provides a summary of the target/task given to the subjects.
+- Group: represents the target class:
   - 0: represents the pre-paradigm time.
-      - 1: represents class one (move left hand for experiments 1 and 2, move hands for experiments 3, 4 and 5).
-        - 2: represents class two (move right hand for experiments 1 and 2, perform secondary movement for experiments 3, 4 and 5).
-        - 3: represents class three (move freely).
-        - 4: represents the post-paradigm time.  
+  - 1: represents class one (move left hand for experiments 1 and 2, move hands for experiments 3, 4 and 5).
+  - 2: represents class two (move right hand for experiments 1 and 2, perform secondary movement for experiments 3, 4 and 5).
+  - 3: represents class three (move freely).
+  - 4: represents the post-paradigm time.  
 
 ## Contact us
 
