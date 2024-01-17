@@ -2,10 +2,10 @@
 
 # HyperCSP
 Implementation of a new formulation of Common Spatial Patterns for EEG hyperscanning data (also known as EEG multi-brain data) named hyperCSP. 
-The EEG hyperscanning dataset is available at: under .
+The EEG hyperscanning dataset is also available.
 
 
-***A guide for researchers to follow in designing their study with a view to sharing data on the [WIN XNAT Open Data server](https://cassgvp.github.io/WIN-Open-Neuroimaging-Community/docs/tools/data.html).***
+***This work is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)***
 
 This is the GitLab repository for the development and early consultation on the WIN data sharing decision tree.
 
