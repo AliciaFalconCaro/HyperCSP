@@ -5,73 +5,52 @@ Implementation of a new formulation of Common Spatial Patterns for EEG hyperscan
 The EEG hyperscanning dataset is also available.
 
 
-***This work is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)***
+# Citation
+**Please cite this repository as:**
+Alicia Falcon-Caro, Sepehr Shirani, Joao Filipe Ferreira, Jordan J. Bird, and Saeid Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI", unpublished, Jan. 2024, available: 
+
+Any publication that analyzes the dataset presented in this repository, should cite the above paper as a reference of the recording.
+
+This resource is released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ---
 
 ## Abstract
 This work proposes a new formulation for common spatial patterns (CSP), often used as a powerful feature extraction technique in brain-computer interfacing (BCI) and other neurological studies. In this approach, applied to multiple subjects’ data and named as hyperCSP, the individual covariance and mutual correlation matrices between multiple simultaneously recorded subjects’ electroencephalograms are exploited in the CSP formulation. This method aims at effectively isolating the common motor task between multiple heads and alleviate the effects of other spurious or undesired tasks inherently or intentionally performed by the subjects. This technique can provide a satisfactory classification performance while using small data size and low computational complexity. By using the proposed hyperCSP followed by support vector machines classifier, we obtained a classification accuracy of 81.82% over 8 trials in the presence of strong undesired tasks. We hope that this method could reduce the training error in multi-task BCI scenarios. The recorded valuable motor-related hyperscanning dataset is available for public use to promote the research in this area.
 
+## DATASET DESCRIPTION
+EXPERIMENT INFORMATION
+The data were recorded under the ethical approval from the Nottingham Trent University School of Science and Technology non-invasive Ethical Committee, under the application number 20/21/103. All the volunteers gave their written consents.
 
-## The solution
-We are developing a flow chart which researchers can walk through to address the question "Can I share my data on the [WIN XNAT Open Data server](https://open.win.ox.ac.uk/pages/open-science/community/Open-WIN-Community/docs/tools/data/)?".
+The dataset contains the EEG hyperscanning data recorded from a total of four subjects, distributed in two pairs (Subjects 1 and 2, and Subjects 3 and 4). For each pair, all the experiments were recorded on the same day. All the subjects were healthy and between 20-30 years old. Out of the four subjects, there were three males and one female. The data were recorded using two g.tec Nautilus systems with 32 wet electrodes each, at 250Hz sampling frequency. Therefore, in total, 64 channels were recorded, 32 channels for each subject. The electrode locations for each system followed the standard 10-20 international EEG electrode placement. The full description of the experiments can be found in the paper [[1]](https://doi.org/10.5281/zenodo.5826182).
 
-*Working through this flow chart will aid researchers in designing their projects and conducting the necessary stages of data preparation in order to share their data without compromising their ethical and legal obligations to participants and research funders.*
+DATA STRUCTURE
+The EEG data are in .MAT format and are archived in folders, divided by each experiment. Each .MAT file contains the EEG data from one pair (Subject 1 and 2, or Subject 3 and 4) and one trial.
 
-## What are we doing?
+Each of the EEG files contains three variables:
 
-The Open WIN Steering Committee have been working to delineate the stages a researcher should (and in some cases *must*) go through in order to share their data in accordance with University of Oxford Best Practice and GDPR.
-
-We are now opening this work up to the community to provide feedback on bottlenecks, missing guidance and further refinements.
-
-This consultation will start by inviting a small number of researchers (with a range of data types) to comment on the proposed guidance. Notes from these consultation meetings are shared below.
-
-- [Meeting 1: Process 1-3](./docs/CallNotes-SoftLaunch-process1-3.md)
-- [Meeting 2: Process 4-5](./docs/CallNotes-SoftLaunch-process4-5.md)
-
-**You can track our progress in this project in our [issues task list](https://git.fmrib.ox.ac.uk/open-science/community/data-sharing-decision-tree/-/issues) and [milestones](https://git.fmrib.ox.ac.uk/open-science/community/data-sharing-decision-tree/-/milestones).**
-
-## What do we need
-
-We need researchers to walk through these documents with their existing or hypothetical research projects, to help us to identify gaps, issues and solutions.
-
-Take a look at these documents:
-- [The decision tree](./docs/decision-tree.md)
-- [Appendices and notes](./docs/decision-tree-appendicies.md)
-
-If you'd like to comment on these documents or contribute to the development of this resource, please take a look at the [CONTRIBUTING](CONTRIBUTING.md) guide.
-
-
-## Who are we
-
-This project is being lead by the [Open WIN Steering Group](https://www.win.ox.ac.uk/open-win)
-
-Contributions to the development of this resource will be solicited from the [Open WIN Community](https://open.win.ox.ac.uk/pages/open-science/community/Open-WIN-Community/docs/community/)
-
-The XNAT Open Data Server is being developed by the [Open Data Team](https://open.win.ox.ac.uk/pages/open-science/community/Open-WIN-Community/docs/tools/data/#working-group-members-alphabetically)
-
+SR: The sampling rate of the system given in samples/second (Hz)
+y: M×N matrix containing the raw EEG data and the annotations about the target cue information. The columns are the N sample points. The array is stored in datatype double. The M rows are divided as follows:
+  - Rows 1 to 32: continuous EEG data representing the 32 channels from the first subject of the pair (Subject 1 or Subject 3).
+  - Rows 33 to 64: continuous EEG data representing the 32 channels from the second subject of the pair (Subject 2 or Subject 4).
+  - Row 65: NumId
+  - Row 66: Group task at each time instant of the recording.
+taskInfo: table structure explaining the target cue information. The table contains 3 columns:
+  - NumId: contains the number ID given to each cue.
+  - StringId: provides a summary of the target/task given to the subjects.
+  - Group: represents the target class:
+        - 0: represents the pre-paradigm time.
+        - 1: represents class one (move left hand for experiments 1 and 2, move hands for experiments 3, 4 and 5).
+        - 2: represents class two (move right hand for experiments 1 and 2, perform secondary movement for experiments 3, 4 and 5).
+        - 3: represents class three (move freely).
+        - 4: represents the post-paradigm time.  
 
 ## Contact us
 
-The easiest way to get in touch is via our [GitLab issues](https://git.fmrib.ox.ac.uk/open-science/data-sharing-decision-tree/-/issues). Leave a comment or feedback and we'll be in touch!
+The easiest way to get in touch is via our [GitLab issues](https://git.fmrib.ox.ac.uk/open-science/data-sharing-decision-tree/-/issues).
 
-You are also welcome to email the Open WIN Community Engagement Coordinator  at [cassandra.gouldvanpraag@psych.ox.ac.uk](mailto:cassandra.gouldvanpraag@psych.ox.ac.uk), to discuss this project, make suggestions, or just say "Hi"!
-
-## Thank you!
-
-Thank you for taking the time to look at these documents. We are excited to build this essential tool to help you deliver on your ambitions to share your data with the world.
-
-# Acknowledgements and citation
-
-Please review our [acknowledgements and requirements for citing this resource](ACKNOWLEDGEMENTS.md).
+You are also welcome to email us at [aliciafalconcaro@gmail.com](aliciafalconcaro@gmail.com), to discuss this project, make suggestions, or just say "Hi"!
 
 
-
-
-
-**REFERENCE: A. Falcon-Caro, S. Shirani, J.F. Ferreira, J.J. Bird, and S. Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI", Jan. 2024, available:**
-
-
-
-
+[1] A. Falcon-Caro, S. Shirani, J.F. Ferreira, J.J. Bird, and S. Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI", unpublished, Jan. 2024, available: 
 
