@@ -22,11 +22,13 @@ This work proposes a new formulation for common spatial patterns (CSP), often us
 
 ## DATASET DESCRIPTION
 EXPERIMENT INFORMATION
+
 The data were recorded under the ethical approval from the Nottingham Trent University School of Science and Technology non-invasive Ethical Committee, under the application number 20/21/103. All the volunteers gave their written consents.
 
 The dataset contains the EEG hyperscanning data recorded from a total of four subjects, distributed in two pairs (Subjects 1 and 2, and Subjects 3 and 4). For each pair, all the experiments were recorded on the same day. All the subjects were healthy and between 20-30 years old. Out of the four subjects, there were three males and one female. The data were recorded using two g.tec Nautilus systems with 32 wet electrodes each, at 250Hz sampling frequency. Therefore, in total, 64 channels were recorded, 32 channels for each subject. The electrode locations for each system followed the standard 10-20 international EEG electrode placement. The full description of the experiments can be found in the paper [[1]](https://doi.org/10.5281/zenodo.5826182).
 
 DATA STRUCTURE
+
 The EEG data are in .MAT format and are archived in folders, divided by each experiment. Each .MAT file contains the EEG data from one pair (Subject 1 and 2, or Subject 3 and 4) and one trial.
 
 Each of the EEG files contains three variables:
