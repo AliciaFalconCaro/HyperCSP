@@ -1,4 +1,6 @@
-[![DOI:10.5281/zenodo.5826183](https://zenodo.org/badge/DOI/10.5281/zenodo.5826183.svg)](https://doi.org/10.5281/zenodo.5826182)
+[![DOI:10.5281/zenodo.5826183](https://zenodo.org/badge/DOI/10.5281/zenodo.5826183.svg)](https://doi.org/10.5281/zenodo.5826182) 
+
+DOI TO BE CHANGED
 
 # HyperCSP
 Implementation of a new formulation of Common Spatial Patterns for EEG hyperscanning data (also known as EEG multi-brain data) named hyperCSP. 
@@ -7,7 +9,7 @@ The EEG hyperscanning dataset is also available.
 
 # Citation
 **Please cite this repository as:**
-Alicia Falcon-Caro, Sepehr Shirani, Joao Filipe Ferreira, Jordan J. Bird, and Saeid Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI", unpublished, Jan. 2024, available: 
+Alicia Falcon-Caro, Sepehr Shirani, Joao Filipe Ferreira, Jordan J. Bird, and Saeid Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI", unpublished, Jan. 2024. 
 
 Any publication that analyzes the dataset presented in this repository, should cite the above paper as a reference of the recording.
 
@@ -47,10 +49,10 @@ taskInfo: table structure explaining the target cue information. The table conta
 
 ## Contact us
 
-The easiest way to get in touch is via our [GitLab issues](https://git.fmrib.ox.ac.uk/open-science/data-sharing-decision-tree/-/issues).
+The easiest way to get in touch is via our [GitHub issues](https://github.com/AliciaFalconCaro/HyperCSP/issues).
 
 You are also welcome to email us at [aliciafalconcaro@gmail.com](aliciafalconcaro@gmail.com), to discuss this project, make suggestions, or just say "Hi"!
 
 
-[1] A. Falcon-Caro, S. Shirani, J.F. Ferreira, J.J. Bird, and S. Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI", unpublished, Jan. 2024, available: 
+[1] A. Falcon-Caro, S. Shirani, J.F. Ferreira, J.J. Bird, and S. Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI", unpublished, Jan. 2024. 
 
