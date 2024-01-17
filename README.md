@@ -34,6 +34,7 @@ The EEG data are in .MAT format and are archived in folders, divided by each exp
 Each of the EEG files contains three variables:
 
 SR: The sampling rate of the system given in samples/second (Hz)
+
 y: M×N matrix containing the raw EEG data and the annotations about the target cue information. The columns are the N sample points. The array is stored in datatype double. The M rows are divided as follows:
 - Rows 1 to 32: continuous EEG data representing the 32 channels from the first subject of the pair (Subject 1 or Subject 3).
 - Rows 33 to 64: continuous EEG data representing the 32 channels from the second subject of the pair (Subject 2 or Subject 4).
