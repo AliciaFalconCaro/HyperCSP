@@ -8,6 +8,7 @@ The EEG hyperscanning dataset is also available.
 
 # Citation
 **Please cite this repository as:**
+
 A. Falcon-Caro, S. Shirani, J. F. Ferreira, J. J. Bird and S. Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI," in IEEE Transactions on Biomedical Engineering, [doi: 10.1109/TBME.2024.3356665](https://ieeexplore.ieee.org/document/10411071) 
 
 Any publication that analyzes the dataset presented in this repository, should cite the above paper as a reference of the recording.
