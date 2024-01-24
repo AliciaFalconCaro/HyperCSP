@@ -5,8 +5,7 @@ function [SVMModel,LDAModel,KNNModel, X_test, y_test] = FeatureClassification (P
 %testing data as explained in [1].
 
 %References:
-%[1]A. Falcon-Caro, S. Shirani, J.F. Ferreira, J.J. Bird, and S. Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI", unpublished, Jan. 2024.
-
+%[1]A. Falcon-Caro, S. Shirani, J. F. Ferreira, J. J. Bird and S. Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI," in IEEE Transactions on Biomedical Engineering, doi: 10.1109/TBME.2024.3356665. 
 %% SOURCE CODE
 % Shuffle the labelled data randomly
 shuffledData = LabelledData(randperm(size(LabelledData, 1)), :);
