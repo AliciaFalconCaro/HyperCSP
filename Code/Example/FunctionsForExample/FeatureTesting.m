@@ -3,7 +3,7 @@ function [accuracySVMTest, accuracyLDATest, accuracyKNNTest] = FeatureTesting (s
 %This function will be used to evaluate the performance of the obtained SVM, LDA and KNN models as explained in [1].
 
 %References:
-%[1]A. Falcon-Caro, S. Shirani, J.F. Ferreira, J.J. Bird, and S. Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI", unpublished, Jan. 2024.
+%[1]A. Falcon-Caro, S. Shirani, J. F. Ferreira, J. J. Bird and S. Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI," in IEEE Transactions on Biomedical Engineering, doi: 10.1109/TBME.2024.3356665. 
 
 y_predSVMTest = predict(svmModel, X_test);
 y_predLDATest = predict(LDAModel, X_test);
