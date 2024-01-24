@@ -8,7 +8,7 @@ function [normalizedFeatures_1, normalizedFeatures_2, Labelled] = HyperCSP (full
 
 
 %References:
-%[1]A. Falcon-Caro, S. Shirani, J.F. Ferreira, J.J. Bird, and S. Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI", unpublished, Jan. 2024.
+%[1]A. Falcon-Caro, S. Shirani, J. F. Ferreira, J. J. Bird and S. Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI," in IEEE Transactions on Biomedical Engineering, doi: 10.1109/TBME.2024.3356665. 
 
 %% INPUTS:
 %   - FullSegment: NxMxS matrix. N represents the channels of the
