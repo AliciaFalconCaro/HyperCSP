@@ -2,6 +2,7 @@ function [normalizedFeatures_1, normalizedFeatures_2, Labelled] = HyperCSP (full
 
 % This function performs CSP given a set of EEG segments as explained in
 % [1].
+%This code has been tested in MATLAB2022b.
 
 %This resource is released under CC BY-NC 4.0.
 %Please cite this code as in [1].
