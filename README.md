@@ -5,6 +5,8 @@
 Implementation of a new formulation of Common Spatial Patterns for EEG hyperscanning data (also known as EEG multi-brain data) named hyperCSP. 
 The EEG hyperscanning dataset is also available.
 
+The code provided here was tested on MATLAB2022b.
+
 
 # Citation
 **Please cite this repository as:**
