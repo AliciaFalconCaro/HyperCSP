@@ -8,6 +8,7 @@
 %% PRE-REQUISITES FOR THIS CODE:
 %Parts of this example make use of some EEGLAB [2] functions so please, add
 %EEGLAB to the MATLAB path before running this example. 
+%This code has been tested in MATLAB2022b.
 %The file 'Standard-10-20-Cap32_hyperscanning_channelLocations.locs'
 %constains the EEG Channel location for the 64 channels (32 from each
 %subject). This file also needs to be added to the MATLAB path together
