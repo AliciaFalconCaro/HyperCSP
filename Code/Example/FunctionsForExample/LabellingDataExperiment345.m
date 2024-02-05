@@ -1,7 +1,7 @@
 function [fullSegment,SegmentLabel] = LabellingDataExperiment345 (FullData, FullLabels)
 
 %This function will segment the raw EEG data per class and allocate an
-%appropriate label to each class. The segments associated with te pre- and
+%appropriate label to each class. The segments associated with the pre- and
 %post-paradigm time (Group -1, 0, 4) will be removed. 
 %The other classes will be separated into two classes:
     % - CommonTask class (Group 1) given new label: 1
