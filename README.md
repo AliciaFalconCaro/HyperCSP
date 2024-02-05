@@ -11,7 +11,7 @@ The code provided here was tested on MATLAB2022b.
 # Citation
 **Please cite this repository as:**
 
-A. Falcon-Caro, S. Shirani, J. F. Ferreira, J. J. Bird and S. Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI," in IEEE Transactions on Biomedical Engineering, [doi: 10.1109/TBME.2024.3356665](https://ieeexplore.ieee.org/document/10411071) 
+Falcon-Caro, A., Shirani, S., Ferreira, J. F., Bird, J. J., & Sanei, S. (2024). Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI. IEEE Transactions on Biomedical Engineering. [doi: 10.1109/TBME.2024.3356665](https://ieeexplore.ieee.org/document/10411071) 
 
 Any publication that analyzes the dataset presented in this repository, should cite the above paper as a reference of the recording.
 
@@ -60,5 +60,5 @@ The easiest way to get in touch is via our [GitHub issues](https://github.com/Al
 You are also welcome to email us at [aliciafalconcaro@gmail.com](aliciafalconcaro@gmail.com), to discuss this project, make suggestions, or just say "Hi"!
 
 
-[1] A. Falcon-Caro, S. Shirani, J. F. Ferreira, J. J. Bird and S. Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI," in IEEE Transactions on Biomedical Engineering, doi: 10.1109/TBME.2024.3356665.  
+[1] Falcon-Caro, A., Shirani, S., Ferreira, J. F., Bird, J. J., & Sanei, S. (2024). Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI. IEEE Transactions on Biomedical Engineering. doi: 10.1109/TBME.2024.3356665.  
 
