@@ -1,6 +1,6 @@
 function [AllData] = DataPreprocessing (fs, hyperscanningData, LowFreqFilter, HighFreqFilter,ChannelLocationFile)
 
-%This fucntion make use of some EEGLAB [1] functions.
+%This fucntion make use of some EEGLAB2021 [1] functions.
 
 %References:
 %[1] A. Delorme and S. Makeig, "EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics including independent component analysis", Journal of Neuroscience Methods, vol. 134, no. 1, pp. 9–21, 2004.
