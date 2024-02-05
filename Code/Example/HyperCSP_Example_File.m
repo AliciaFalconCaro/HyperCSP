@@ -1,5 +1,5 @@
 %This example performs hyperCSP on the given dataset and then calculates
-%KNN, LDA and SVM as explained in [1].
+%KNN, LDA and SVM as explained in [1]. This code was tested under MATLAB2022 and EEGLAB2021
 
 %This resource is released under CC BY-NC 4.0.
 %Please cite this code as in [1].
@@ -15,7 +15,7 @@
 %with the dataset folder.
 
 %References:
-%[1]A. Falcon-Caro, S. Shirani, J. F. Ferreira, J. J. Bird and S. Sanei, "Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI," in IEEE Transactions on Biomedical Engineering, doi: 10.1109/TBME.2024.3356665. 
+%[1]Falcon-Caro, A., Shirani, S., Ferreira, J. F., Bird, J. J., & Sanei, S. (2024). Formulation of Common Spatial Patterns for Multi-task Hyperscanning BCI. IEEE Transactions on Biomedical Engineering. doi: 10.1109/TBME.2024.3356665. 
 %[2] A. Delorme and S. Makeig, "EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics including independent component analysis", Journal of Neuroscience Methods, vol. 134, no. 1, pp. 9–21, 2004.
 
 
