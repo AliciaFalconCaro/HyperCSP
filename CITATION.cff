@@ -11,14 +11,14 @@ authors:
   - given-names: Alicia
     family-names: Falcon Caro
     orcid: 'https://orcid.org/0000-0002-1085-7716'
-  - given-names: Saeid
-    family-names: Sanei
   - given-names: Sepehr
     family-names: Shirani
   - given-names: Joao Filipe
     family-names: Ferreira
   - given-names: Jordan J.
     family-names: Bird
+  - given-names: Saeid
+    family-names: Sanei
 identifiers:
   - type: doi
     value: 10.1109/TBME.2024.3356665
